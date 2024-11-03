@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ana Clara Santos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/codigo-fonte/css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Julius+Sans+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Julius+Sans+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="website icon" type="png" href="/codigo-fonte/imgs/logo-fr.png">
+    <title>Francy Rocha Beauty</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header class="cabecalho">
+
+            <button class="open-menu" onclick="openSideMenu()">☰</button>
+            <div class="logo">
+                <img src="/codigo-fonte/imgs/logo-fr.png" alt="Logo Francy Beauty">
+                <span>Francy Rocha Beauty</span>
+            </div>
+
+            <div class="conteiner-agendar">        
+                    <button class="Btn-agendar"><a href="//wa.me/5531993795585">AGENDAR HORÁRIO</a></button>
+            </div>
+
+        </header>
+
+        <!-- Menu Lateral -->
+        <div id="sideMenu" class="side-menu">
+            <button class="close-menu" onclick="closeSideMenu()">×</button>
+            <ul>
+                <li><a href="#Sec-Prod">Produtos</a></li>
+                <li><a href="#Sec-perguntas">Perguntas</a></li>
+                <li><a href="//wa.me/5531993795585">Agendamento Aqui</a></li>
+                <li><a href="#Sec-contatos">Contatos</a></li>
+                <li><a href="https://maps.app.goo.gl/3BMoKAjvp8PcQZzg8">Endereço do Studio</a></li>
+            </ul>
+        </div>
+
+
+        <main class="principal">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtDesign">
+                            <span id="sectionDesign">DESIGN DE SOBRANCELHAS</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+                        <div id="txtDesign" class="collapse">
+                            <h3>O design de sobrancelha é o processo de moldar e definir as sobrancelhas para realçar a
+                                beleza do rosto. A forma ideal varia conforme o formato do rosto e pode ser arqueada,
+                                reta ou angular.<br>
+                                <br>As principais técnicas incluem:<br>
+                                <br>-Depilação: Com pinça ou fio.<br>
+                                -Preenchimento: Usando lápis ou gel para definir e corrigir falhas.<br>
+                                <br>Manter as sobrancelhas requer visitas regulares e cuidados em casa. Um designer pode
+                                ajudar a encontrar o formato ideal e a cuidar das sobrancelhas.
+                            </h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtBrow">
+                            <span id="sectionBrow">BROW LAMINATION</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+
+                        <div id="txtBrow" class="collapse">
+                            <h3>Brow lamination é um tratamento estético que alinha e preenche os pelos das
+                                sobrancelhas,
+                                proporcionando um visual bem definido.
+                                Benefícios:<br>
+                                <br>-Sobrancelhas mais cheias e alinhadas.<br>
+                                -Reduz a necessidade de maquiagem.<br>
+
+                                <br>Resultados duram de 6 a 8 semanas.É importante realizar o procedimento com um
+                                profissional
+                                qualificado e fazer um teste de alergia.
+                            </h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtLash">
+                            <span id="sectionLash">LASH LIFTING</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+
+                        <div id="txtLash" class="collapse">
+                            <h3>Lash Lifting é um tratamento que curva e levanta os cílios naturais, dando a aparência
+                                de cílios mais longos e volumosos. O efeito dura de 6 a 8 semanas e é uma alternativa de
+                                baixa
+                                manutenção em comparação com extensões de cílios.Duração: O efeito dura geralmente de 6
+                                a 8 semanas.<br>
+                                <br>-Vantagens: Realça o olhar, é uma opção de baixa manutenção e não danifica os cílios
+                                naturais, ao contrário de algumas extensões.<br>
+                            </h3>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtExtensao">
+                            <span id="sectionExtensao">EXTENSÃO DE CÍLIOS</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+
+                        <div id="txtExtensao" class="collapse">
+                            <h3> Extensão de Cílios envolve colar fios artificiais sobre os cílios naturais para criar
+                                um
+                                efeito de cílios mais volumosos e longos. Existem diferentes estilos (clássico, volume,
+                                híbrido),
+                                e o efeito dura de 3 a 4 semanas, com manutenção. É uma opção prática para quem quer
+                                realçar o olhar
+                                sem a necessidade de maquiagem diária.
+                            </h3>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtDerma">
+                            <span id="sectionDerma">DERMAPLANING</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+
+                        <div id="txtDerma" class="collapse">
+                            <h3> Dermaplaning é uma técnica de esfoliação que remove células mortas e penugem do rosto
+                                com uma lâmina, deixando
+                                a pele mais suave e radiante. É rápido, seguro e melhora a absorção de produtos e o
+                                acabamento da maquiagem.<br>
+                                <br>-Duração e Manutenção: O tratamento é rápido (cerca de 30 minutos) e pode ser feito
+                                a cada 3 a 4 semanas.
+
+                            </h3>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtLimp">
+                            <span id="sectionLimp">LIMPEZA DE PELE</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+
+                        <div id="txtLimp" class="collapse">
+                            <h3> A Limpeza de Pele é um procedimento para desobstruir os poros e remover impurezas,
+                                promovendo uma pele mais saudável e uniforme. Inclui higienização, esfoliação,
+                                vaporização,
+                                proteção, máscara calmante e finalização com protetor solar.
+
+                            </h3>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtHidra">
+                            <span id="sectionHidra">HIDRAGLOSS</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+
+                        <div id="txtHidra" class="collapse">
+                            <h3> Hidragloss é um tratamento de hidratação profunda para os lábios que proporciona volume
+                                leve, brilho
+                                e uma aparência saudável. Ideal para quem deseja lábios lisos e hidratados sem
+                                procedimentos invasivos.
+
+                            </h3>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class=" designS d-flex justify-content-between align-items-center" role="button"
+                            data-toggle="collapse" data-target="#txtSpa">
+                            <span id="sectionSpa">SPA DOS LÁBIOS</span>
+                            <i class="bi bi-arrow-down-short arrow-icon"></i>
+
+                        </div>
+
+                        <div id="txtSpa" class="collapse">
+                            <h3>
+                                Spa dos Lábios é um tratamento que envolve esfoliação, hidratação e nutrição para
+                                revitalizar os lábios. Ideal
+                                para quem sofre com lábios ressecados e quer um cuidado especial, garantindo lábios
+                                lisos, macios e com aparência saudável.
+                            </h3>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </nav>
+
+
+        </main>
+
+
+        <section id="Sec-Prod">
+
+        <div class="txtprod">
+            <h2>PRODUTOS</h2>
+        </div>
+        <div class="produtos-conteiner">
+
+
+            <div class="produtos">
+
+                <img id="imgserum" class="img-prod" src="/codigo-fonte/imgs/serumcres-niraj.webp" alt="Imagem do serum crescimento"
+                    width="210">
+                <h4>Serum Fortalecedor Cílios e Sobrancelhas- Niraj</h4>
+                <button
+                    onclick="window.location.href='//wa.me/5531993795585?text=Olá!%20Tenho%20interesse%20no%20seu%20produto.'"
+                    class="btn-interesse">Tenho interesse</button>
+
+            </div>
+
+            <div class="produtos">
+                <img class="img-prod" src="/codigo-fonte/imgs/espumalimp-verde.png" alt="Imagem de mousse de limpeza" width="210">
+                <h4>Mousse de Limpeza Facial-Maçã Verde</h4>
+                <button
+                    onclick="window.location.href='//wa.me/5531993795585?text=Olá!%20Tenho%20interesse%20no%20seu%20produto.'"
+                    class="btn-interesse">Tenho interesse</button>
+            </div>
+
+            <div class="produtos">
+                <img class="img-prod" src="/codigo-fonte/imgs/espumalimp-azul.png" alt="Imagem de mousse de limpeza" width="210">
+                <h4>Mousse de Limpeza Facial-Lichia</h4>
+                <button
+                    onclick="window.location.href='//wa.me/5531993795585?text=Olá!%20Tenho%20interesse%20no%20seu%20produto.'"
+                    class="btn-interesse">Tenho interesse</button>
+            </div>
+        </div>
+
+        <div class="produtos-conteiner">
+            <div class="produtos">
+                <img class="img-prod" src="/codigo-fonte/imgs/pasta-kohaiazul-removebg-preview.png"
+                    alt="Imagem modelador de sobrancelhas" width="100">
+                <h4>Pasta Modeladora de Sobrancelhas de Lichia-Kohai</h4>
+                <button
+                    onclick="window.location.href='//wa.me/5531993795585?text=Olá!%20Tenho%20interesse%20no%20seu%20produto.'"
+                    class="btn-interesse">Tenho interesse</button>
+            </div>
+
+            <div class="produtos">
+                <img class="img-prod" src="/codigo-fonte/imgs/pasta-kohaiverde-removebg-preview.png"
+                    alt="Imagem modelador de sobrancelhas" width="100">
+                <h4>Pasta Modeladora de Sobrancelhas de Maçã Verde-Kohai</h4>
+                <button
+                    onclick="window.location.href='//wa.me/5531993795585?text=Olá!%20Tenho%20interesse%20no%20seu%20produto.'"
+                    class="btn-interesse">Tenho interesse</button>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Sec-perguntas">
+        <div id="txtper" class="txtprod">
+            <h2>PERGUNTAS FREQUENTES</h2>
+        </div>
+
+        <div class="perguntas-conteiner">
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>Como saber o formato de sobrancelha ideal para meu rosto?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                Escolher o formato de sobrancelha ideal para o seu rosto pode fazer toda a diferença
+                na sua aparência. Primeiro, tente identificar o formato do seu rosto. Se for redondo,
+                sobrancelhas arqueadas podem ajudar a alongá-lo. Para rostos ovais, praticamente qualquer
+                formato funciona, mas eu recomendaria sobrancelhas levemente arqueadas. Para rostos quadrados,
+                sobrancelhas arredondadas ajudam a suavizar os ângulos, enquanto rostos em forma de coração ficam
+                ótimos com sobrancelhas mais cheias e arredondadas. Se o seu rosto for retangular, sobrancelhas
+                retas com arcos suaves equilibram bem. Além disso, pense nas suas características faciais, como
+                a cor e o estilo do seu cabelo. Isso também pode influenciar a escolha do formato e da cor das
+                sobrancelhas.
+            </div>
+
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>O que é dermaplaning?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                Dermaplaning é um procedimento estético que utiliza uma lâmina esterilizada para remover células mortas
+                da pele e pelos finos (peach fuzz) do rosto. O objetivo é suavizar a textura da pele e promover uma
+                aparência mais radiante.
+            </div>
+
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>O lash lifting danifica os cílios?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                Quando feito corretamente por um profissional qualificado, o lash lifting não danifica os cílios. No
+                entanto, é importante seguir os cuidados pós-tratamento para manter a saúde dos cílios.
+            </div>
+
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>Com que frequência devo fazer limpeza de pele?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                A frequência ideal é a cada 1 a 3 meses, dependendo do tipo de pele e das necessidades individuais.
+            </div>
+
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>Quais são os benefícios do spa dos lábios?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                Os benefícios incluem lábios mais suaves, hidratados e com aparência saudável, além de reduzir
+                rachaduras e descamação.
+            </div>
+
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>O tratamento é doloroso?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                O Hidragloss é geralmente considerado um tratamento de baixa dor, mas pode ser aplicado um anestésico
+                tópico para maior conforto.
+            </div>
+
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>As extensões de cílios danificam os cílios naturais?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                Se aplicadas corretamente por um profissional qualificado, as extensões de cílios não devem danificar os
+                cílios naturais. É importante seguir as orientações de cuidados pós-aplicação.
+            </div>
+
+            <div class="pergunta" onclick="toggleResposta(this)">
+                <span>Quanto tempo dura o brow lamination?</span>
+                <i class="bi bi-arrow-down"></i>
+            </div>
+            <div class="resposta">
+                Os resultados do brow lamination duram de 6 a 8 semanas, dependendo do crescimento dos pelos.
+            </div>
+            
+
+        </div>
+    </section>
+
+        <div class="conteiner-endereco">
+            <button class="btn-endere"><a href="https://maps.app.goo.gl/3BMoKAjvp8PcQZzg8">ENDEREÇO AQUI</a></button>
+        </div>
+
+        <section id="Sec-contatos">
+        <div class="contatos-conteiner">
+            <div class="contatos">
+                <section id="insta">
+                    <div>
+                        <a href="https://www.instagram.com/francyrocha.beauty/" target="_blank"
+                            rel="noopener noreferrer">
+                            <span>
+                                <i class="bi bi-instagram"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <div class="contatos">
+                <section id="tiktok">
+                    <div>
+                        <a href="https://www.tiktok.com/@francyrbe?is_from_webapp=1&sender_device=pc" target="_blank"
+                            rel="noopener noreferrer">
+                            <span>
+                                <i class="bi bi-tiktok"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <div class="contatos">
+                <section id="email">
+                    <div>
+                        <a href="mailto:fhsr25@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <span>
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </section>
+
+            </div>
+            <div class="contatos">
+                <section id="whats">
+                    <div>
+                        <a href="//wa.me/5531993795585" target="_blank" rel="noopener noreferrer">
+                            <span>
+                                <i class="bi bi-whatsapp"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </section>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+        <footer class="rodape">© 2024 Francy Rocha Beauty - Todos os direitos reservados.</footer>
+
+    </div>
+
+
+    <script src="/codigo-fonte/js/home.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

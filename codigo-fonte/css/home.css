@@ -1,0 +1,437 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(217, 217, 217, 1);
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background-color: rgba(127, 31, 74, 1);
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.cabecalho .logo span {
+    font-size: 3vw;
+
+}
+
+.logo img {
+    max-width: 5vw;
+    margin-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.open-menu {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+
+.Btn-agendar{
+    background-color: rgba(217, 217, 217, 0.932);
+    padding:1vw;
+    border-radius: 15vw;
+    color:rgba(0, 0, 0, 1);
+    font-size: 1.5vw;
+}
+
+.Btn-agendar a{
+    text-decoration: none;
+    list-style-type: none;
+    color:rgba(0, 0, 0, 1);
+}
+.arrow {
+    background-color: #57575700;
+    border-radius: 1vh;
+
+}
+
+/* Menu Lateral */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(127, 31, 74, 0.564);
+    overflow-x: hidden;
+    transition: width 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.side-menu ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu ul li {
+    width: 100%;
+    padding: 2% 5%;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.7vw;
+    display: block;
+    width: 100%;
+}
+
+.side-menu ul li a:hover {
+    background-color: #f1eaea3b;
+}
+
+.close-menu {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 2rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cabecalho .open-menu {
+    font-size: 3.7vw;
+}
+
+.principal {
+    flex: 1;
+    background-image: url('/codigo-fonte/imgs/capa-fundo.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(229, 207, 207);
+    background-attachment: fixed;
+}
+
+.designS {
+    background-color: rgba(217, 217, 217, 1);
+    width: 60%;
+    border-radius: 15vw;
+    padding: 2% 4% 2% 4%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
+
+h3 {
+    background-color: rgba(217, 217, 217, 1);
+    width: 40%;
+    font-size: 2vw;
+    font-family: 'Inria Sans', sans-serif;
+    margin-left: 30%;
+    border-radius: 2vw;
+    padding: 2%;
+    color: rgba(30, 30, 30, 1);
+}
+
+.principal ul li span {
+    color: rgba(141, 61, 97, 1);
+    font-size: 2.5vw;
+
+}
+
+.principal nav ul li i {
+    font-size: 2.5vw;
+}
+
+.collapse {
+    display: none;
+    transition: max-height 0.5s ease;
+    overflow: hidden;
+}
+
+.collapse.show {
+    display: block;
+}
+
+.arrow-icon.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.produtos {
+    background-color: rgba(250, 244, 244, 0.54);
+    width: 20%;
+    border-radius: 3vw;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2%;
+    margin: 2.5vw;
+}
+
+.txtprod {
+    background-color: rgba(39, 6, 21, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inria Sans', sans-serif;
+    border-radius: 15vw;
+    text-align: center;
+    max-width: 45vw;
+    margin-left: 26.5vw;
+    margin-top: 2vw;
+}
+
+.produtos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+
+}
+
+.produtos h4 {
+    margin-bottom: 10px;
+}
+
+.produtos-conteiner {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    font-family: 'Inria Sans';
+    text-align: center;
+    align-items: center;
+}
+
+.produtos .btn-interesse {
+    border-radius: 10vw;
+    padding: 1vw;
+    width: 17vw;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+
+.produtos button {
+    background-color: rgba(141, 61, 97, 1);
+}
+
+#imgserum {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+
+.contatos-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 4vw;
+    font-size: 5vw;
+    gap: 4vw;
+}
+
+.contatos-conteiner i {
+    color: rgba(39, 6, 21, 1);
+    cursor: pointer;
+}
+
+.contatos-conteiner i:hover {
+    color: rgba(141, 61, 97, 1);
+
+}
+
+
+.rodape {
+    background-color: rgba(141, 61, 97, 0.292);
+    color: rgba(30, 30, 30, 1);
+    padding: 1%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+/* parte de responsividade */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .cabecalho .logo span {
+        font-size: 3vw;
+    }
+
+    .btn-Serv {
+        font-size: 2vw;
+    }
+
+    .rodape {
+        font-size: 1.5rem;
+    }
+
+    .side-menu.open {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .cabecalho .logo span {
+        font-size: 2vw;
+    }
+
+    .btn-Serv {
+        font-size: 1vw;
+    }
+
+    .rodape {
+        font-size: 1vw;
+    }
+
+    .cabecalho .open-menu {
+        font-size: 2.5vw;
+    }
+
+    .side-menu ul li a {
+        font-size: 1.7vw;
+    }
+
+    .dropdown li a {
+        font-size: 1.5vw;
+    }
+
+    .dropdown {
+        top: 12%;
+    }
+
+}
+
+@media (min-width: 1441px) {
+    .cabecalho .logo span {
+        font-size: 2.5vw;
+    }
+
+    .btn-Serv {
+        font-size: 1.5vw;
+    }
+
+    .rodape {
+        font-size: 1.3vw;
+    }
+
+    .side-menu ul li a {
+        font-size: 1.7vw;
+    }
+
+    .dropdown li a {
+        font-size: 2vw;
+    }
+
+    .dropdown {
+        top: 10%;
+    }
+}
+
+#txtper {
+    margin-bottom: 2vw;
+}
+
+.perguntas-conteiner {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1vw;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 60vw;
+    margin: 0 auto;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.pergunta {
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.pergunta:hover {
+    background-color: rgba(255, 255, 255, 0.68);
+}
+
+.resposta {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(141, 61, 97, 1);
+    border-radius: 4px;
+    color: white;
+}
+
+.arrow {
+    margin-left: 10px;
+    transition: transform 0.2s;
+}
+
+.active .arrow {
+    transform: rotate(90deg);
+}
+
+.conteiner-endereco{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-endere{
+    background-color: rgba(250, 244, 244, 0.78);
+    border-radius: 15vw;
+    padding:0.5vw;
+    width: 35%;
+    align-items: center;
+    text-align: center;
+    margin-top:3%;
+    font-size: 2vw;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.btn-endere a{
+    text-decoration: none;
+    list-style-type: none;
+    color:rgba(0, 0, 0, 1);
+}
