@@ -8,6 +8,11 @@
 body {
     background-color: rgba(217, 217, 217, 1);
     overflow-x: hidden;
+    background-image: url('../imgs/capa-fundo.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 html {
@@ -140,12 +145,7 @@ html {
 
 .principal {
     flex: 1;
-    background-image: url('/codigo-fonte/imgs/capa-fundo.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgb(229, 207, 207);
-    background-attachment: fixed;
+  
 }
 
 .designS {
@@ -196,8 +196,8 @@ h3 {
 }
 
 .produtos {
-    background-color: rgba(250, 244, 244, 0.54);
-    width: 20%;
+    background-color: rgba(250, 244, 244, 0.742);
+    max-width: 25%;
     border-radius: 3vw;
     text-align: center;
     color: rgba(30, 30, 30, 1);
