@@ -6,14 +6,17 @@
 }
 
 body {
-    background-color: rgba(217, 217, 217, 1);
     overflow-x: hidden;
     background-image: url('../imgs/capa-fundo.JPG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh;
+
 }
+
+
 
 html {
     scroll-behavior: smooth;
@@ -145,6 +148,7 @@ html {
 
 .principal {
     flex: 1;
+
   
 }
 
@@ -178,6 +182,14 @@ h3 {
 
 .principal nav ul li i {
     font-size: 2.5vw;
+}
+
+li {
+    list-style: none; 
+}
+
+ul{
+    list-style-type: none;
 }
 
 .collapse {
@@ -363,6 +375,14 @@ h3 {
         top: 10%;
     }
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 
 #txtper {
     margin-bottom: 2vw;
