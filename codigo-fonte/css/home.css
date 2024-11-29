@@ -271,6 +271,24 @@ ul{
     padding-bottom: 2vw;
 }
 
+.img-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#Sec-Res{
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.img-proc{
+    width: 27%;
+}
+
+.img-conteiner img{
+    border-radius: 3vw;
+}
 
 .contatos-conteiner {
     display: flex;
